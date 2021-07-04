@@ -1,0 +1,18 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: shadow ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow{
+    from{box-shadow: 5px 5px 38px red;}
+    to{box-shadow: 5px 5px 38px yellow;}
+}
